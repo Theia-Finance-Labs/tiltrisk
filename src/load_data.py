@@ -3,9 +3,9 @@ import pandas as pd
 
 
 # Function to load and return the dataset
-def load_data(source: str):
+def load_trisk_data(source: str):
     """
-    Loads the NPV, PD, and parameters datasets from the specified source directory.
+    Loads the NPV, PD, parameters, and trajectories datasets from the specified source directory.
 
     Parameters:
     source (str): The directory containing the CSV files.

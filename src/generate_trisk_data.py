@@ -54,7 +54,7 @@ def run_r_analysis(
 if __name__ == "__main__":
     # Define the paths
     input_path = os.path.join("workspace", "trisk_inputs_v2_legacy_countries")
-    project_output_path = os.path.join("workspace", "india_variability_analysis")
+    project_output_path = os.path.join("workspace", "trisk_outputs")
 
     # Define the parameters
     run_params = [
